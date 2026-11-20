@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package bodymassindex;
 
 import java.awt.*;
@@ -12,7 +7,7 @@ import java.awt.event.*;
 public class BodyMassIndex {
 
     public static void main(String[] args) {
-        // TODO code application logic here
+        
   JFrame fr=new JFrame();
 fr.setSize(340,300);
 fr.setVisible(true);
@@ -84,11 +79,6 @@ details.addActionListener(new ActionListener(){
            }
 
        
-
-       
-
-       
-
        }
 } );
 delete.addActionListener(new ActionListener(){
